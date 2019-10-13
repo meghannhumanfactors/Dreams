@@ -15,12 +15,12 @@ namespace EnKindle.Pages
     public class IndexModel : PageModel
     {
 
-        // DEFAULT MODE
+        // DEFAULT MODE ...
         public void OnGet()
         {
-
+ 
         }
-
+                             
         // BRIDGE TO GREETINGS MODEL
         [BindProperty]
         public Greetings _Greetings { get; set; }
